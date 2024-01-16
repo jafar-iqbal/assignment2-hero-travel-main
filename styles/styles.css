@@ -144,6 +144,7 @@ body {
 .tour-content {
     width: 630px;
     align-items: last baseline;
+    padding-top: 30px;
 }
 
 .list {
@@ -164,6 +165,8 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .p-lits {
@@ -172,7 +175,10 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
 
 /* gallery */
 .gallery-section {
@@ -401,20 +407,73 @@ body {
     height: 52px;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    
+
 }
-.pad1{
+
+.pad1 {
     border-radius: 8px;
     width: 393px;
-height: 52px;
+    height: 52px;
 }
-.flex-box{
+
+.flex-box {
     justify-content: center;
     display: flex;
     border-radius: 16px;
     gap: 20px;
-    padding:20px;
+    padding: 20px;
 }
+
 /* new letter end */
 /* footer start */
+.footer {
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 1210px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+}
 
+.logo-center {
+    padding-left: 450px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.logo-footer {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.logo-footer h3 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318;
+    padding-left: 16px;
+}
+
+.logo-text-footer {
+    font-size: 36px;
+    color: #FF5400;
+    font-weight: 800;
+}
+
+.p-footer {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 40px;
+}
+.footer-svg{
+    text-align: center;
+}
+.reserved{
+    text-align: center;
+    padding-top: 100px;
+}
