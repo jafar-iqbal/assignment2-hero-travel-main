@@ -504,10 +504,25 @@ body {
 
     }
 
-    .btn .btn1 {
-        flex-direction: column;
-        justify-content: center;
+    .btn .btn1 .p-lits{
+        align-items: center;
         width: 100px;
         height: 25px;
+    }
+
+    .popular-tour.list.tour-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 576px;
+        margin-left: 300px;
+    }
+    .gallery-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery-section img{
+        display: flex;
     }
 }
