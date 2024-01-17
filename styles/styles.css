@@ -80,6 +80,7 @@ body {
 /* header section end*/
 /* banner */
 .banner-container {
+    max-width: 1440px;
     position: relative;
     text-align: center;
     margin-top: 30px;
@@ -94,7 +95,6 @@ body {
 
 .banner-text h1 {
     color: #FFF;
-    font-family: Mulish;
     font-size: 64px;
     font-weight: 800;
 }
@@ -470,10 +470,44 @@ body {
     line-height: 26px;
     padding-bottom: 40px;
 }
-.footer-svg{
+
+.footer-svg {
     text-align: center;
 }
-.reserved{
+
+.reserved {
     text-align: center;
     padding-top: 100px;
+}
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .travel-section.nav-container.items-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .items-container {
+        flex-direction: column;
+        margin-left: 50px;
+        gap: 20px;
+    }
+
+    .banner-container {
+        max-width: 500px;
+    }
+
+    .banner-container h1 {
+        font-size: 30px;
+        font-weight: 200;
+
+    }
+
+    .btn .btn1 {
+        flex-direction: column;
+        justify-content: center;
+        width: 100px;
+        height: 25px;
+    }
 }
