@@ -266,7 +266,7 @@ label {
 
 /* deal section */
 .deal1 {
-  background-image: url('/Images/Group39.png');
+  background: url('/Images/Group39.png');
   width: 1200px;
   height: 530px;
   display: block;
@@ -281,7 +281,7 @@ label {
   border-radius: 15px;
 }
 .deal2 {
-  background-image: url('/Images/Group40.png');
+  background: url('/Images/Group40.png');
   width: 1200px;
   height: 530px;
   display: block;
