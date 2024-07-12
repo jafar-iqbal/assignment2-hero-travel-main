@@ -498,4 +498,162 @@ label {
   text-align: center;
   padding-top: 100px;
 }
+@media (max-width: 768px) {
+  .gallery-heading {
+    font-size: 32px;
+  }
+
+  .gallery-description {
+    font-size: 14px;
+  }
+
+  .image-center {
+    font-size: 24px;
+  }
+
+  .menu {
+    display: none;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease-out;
+  }
+  .menu.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 500px;
+  }
+  .ul-list {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  label {
+    display: block;
+    padding: 10px 20px;
+  }
+
+  /* banner */
+  .banner-text h1 {
+    font-size: 48px;
+  }
+  .banner-text p {
+    font-size: 14px;
+  }
+  .btn,
+  .option,
+  .btn1 {
+    width: 150px;
+    height: 45px;
+  }
+  .popular-tour {
+    flex-direction: column;
+  }
+
+  .tour-content {
+    padding: 20px;
+  }
+
+  .list h1 {
+    font-size: 32px;
+  }
+
+  .list p,
+  .p-lits {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .popular-tour img {
+    width: 335px;
+  }
+  .gallery-heading {
+    font-size: 28px;
+  }
+
+  .gallery-description {
+    font-size: 12px;
+  }
+
+  .image-center {
+    font-size: 20px;
+  }
+
+  .single-image {
+    padding: 5px;
+  }
+
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .image-container img {
+    width: 335px;
+    height: 176px;
+  }
+  .gallery-description {
+    color: rgba(19, 19, 24, 0.7);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .gallery-heading {
+    text-align: left;
+  }
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .deal1 {
+    width: 500px;
+    height: 530px;
+  }
+  .deal2 {
+    width: 500px;
+    height: 530px;
+  }
+  .deal3 {
+    width: 500px;
+    height: 530px;
+  }
+
+  .deal-content {
+    position: absolute;
+    width: 450px;
+    height: 389px;
+  }
+
+  .deal-content1 {
+    position: absolute;
+    width: 450px;
+    height: 389px;
+  }
+  .flex-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-box img{
+    width: 500px;
+    height: 500px;
+  }
+  .footer{
+    width: 500px;
+  }
+  .logo-center{
+    padding-left: 35px;
+    text-align: center;
+ }
+}
 
