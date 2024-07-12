@@ -498,7 +498,8 @@ label {
   text-align: center;
   padding-top: 100px;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 600px) {
   .gallery-heading {
     font-size: 32px;
   }
